@@ -1,0 +1,216 @@
+.last_section {
+   width: 100%;
+   padding: 16px;
+}
+.last_section-wrapper{
+   padding: 6px  16px  16px  16px;
+   border-bottom-right-radius: 24px;
+   border-bottom-left-radius: 24px;
+}
+.last_section-submit_button {
+
+}
+.last_section-policy {
+
+}
+
+.last_section-itogo-main{
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 28px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   letter-spacing: -0.01em;
+   padding-bottom: 8px;
+}
+
+.last_section-itogo-second{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+}
+.delivery_end_wrapper-end{
+   margin-top: 14px;
+   display: flex;
+   height: 52px;
+   padding: 0px 8px 0px 8px;
+   justify-content: center;
+   align-items: center;
+   background: rgba(240, 236, 244, 1);
+   border-radius: 8px;
+   margin-bottom: 16px;
+}
+
+.last_section-payMethod_check{
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+.last_section-payMethod{
+   padding: 10px;
+   background: rgba(240, 236, 244, 1);
+   border-radius:8px;
+}
+
+.last_section-payMethod_check_descr{
+   padding-left: 6px;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+}
+
+.last_section-payMethod_low_desc{
+   width: 100%;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0px;
+   padding-top: 8px;
+}
+
+.buy_button{
+   cursor: pointer;
+   width: 100%;
+   height: 44px;
+   margin-top: 24px;
+   background: rgba(203, 17, 171, 1);
+   color: rgba(255, 255, 255, 1);
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   border-radius: 8px;
+}
+.buy_button:hover {
+   background: rgba(203, 17, 172, 0.8);
+}
+
+.last_section-policy{
+   margin-top: 12px;
+   display: flex;
+   gap: 8px;
+   position: relative;
+}
+
+.last_section-privacy{
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+   padding-left: 22px;
+}
+
+.last_section-privacy_img{
+   position: absolute;
+   top: 2px;
+}
+
+.last_section-copyright{
+   background: rgba(103, 37, 168, 1);
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+   color: rgba(255, 255, 255, 0.7);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 24px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 32px;
+}
+
+.last_punkt_vidachi{
+   display: none;
+}
+
+@media (min-width: 1023px) {
+   .last_section-copyright{
+      display: flex;
+      height: fit-content;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 16px;
+
+   }
+   .last_section {
+      width: 100%;
+      padding: 0px;
+   }
+
+   .last_section-wrapper{
+      border-radius: 16px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+      margin-top: 22px;
+      margin-right: 26px;
+      margin-left: 4px;
+      padding: 16px 24px 24px 24px;
+   }
+   .last_section-itogo-main{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+   }
+
+   .last_span{
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+   }
+
+   .last_adress{
+      display: flex;
+      gap: 4px;
+      flex-direction: column;
+      margin-top: 24px;
+   }
+
+   .last_punkt_vidachi{
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+   }
+
+   .last_adress-adress{
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 16px;
+   }
+
+   .last-date{
+      width: 47px;
+      color: rgba(203, 17, 171, 1);
+      border-bottom: 1px dotted rgba(203, 17, 171, 1);
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 16px;
+   }
+
+   .last_payment-section{
+      display: flex;
+      flex-direction: column;
+      padding-top: 8px;
+      padding-bottom: 12px;
+   }
+   .last_payment-section .cashing_payment-wrapper{
+      margin-top: 0;
+   }
+
+   .last_section-payMethod {
+      padding: 10px 6px 10px 8px;
+   }
+
+   .cashing_payment-wrapper{
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 16px;
+      padding-top: 2px;
+   }
+}

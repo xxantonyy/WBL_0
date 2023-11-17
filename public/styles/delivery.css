@@ -1,0 +1,246 @@
+.delivery_wrapper {
+   margin-top: 16px;
+   border-radius: 16px;
+   background: #FFFFFF;
+}
+
+.delivery_wrapper-container {
+   padding: 16px;
+}
+
+.delevery_method{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.delevery_method-name{
+   font-family: Segoe UI;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 28px;
+}
+
+.delevery_method-change{
+   padding-top: 4px;
+   font-family: Segoe UI;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 0px;
+   text-align: right;
+   color: rgba(203, 17, 171, 1);
+}
+
+.delivery_punkt{
+   padding-top: 10px;
+   font-family: Segoe UI;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: 0px;
+   text-align: left;
+}
+
+.delivery_adress{
+   font-family: Segoe UI;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0px;
+   text-align: left;
+}
+
+.delivery_punkt_vidachi{
+   display: flex;
+   align-items: center;
+}
+
+.delivery_wrapper-rating{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 4px;
+}
+
+.delivery_rating{
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+}
+
+.delivery_time-date{
+   margin-left: 8px;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+}
+
+.delivery_cost{
+   padding-top: 16px;
+   display: flex;
+   justify-content: start;
+   flex-direction: column;
+}
+.delivery_cost-descr{
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
+}
+.delivery_cost-free{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+.delivery_cards_to_date_wrapper{
+   width: 100%;
+   padding-top: 16px;
+}
+
+.delivery_cards_to_date-icons_wrapper{
+   padding-top: 12px;
+   display: flex;
+   gap: 8px;
+}
+
+.delivery_cards_to_date-icons{
+   width: 40px;
+   height: 100%;
+}
+
+.delivery_cards-additional {
+   position: absolute;
+   height: 16px;
+   width: fit-content;
+   padding: 0 5px;
+   background: rgba(245, 81, 35, 1);
+   border-radius: 16px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: -7px;
+   right: -4px;
+   font-size: 10px;
+   font-weight: 600;
+   line-height: 18px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: rgba(255, 255, 255, 1);
+ }
+
+.delivery_cards_icon-wrapper{
+   position: relative;
+}
+
+.delivery_cards_to_date-first_date{
+   font-family: Segoe UI;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
+}
+
+.date-2 {
+   padding-top: 22px;
+}
+
+.delivery_end_wrapper{
+   margin-top: 14px;
+   display: flex;
+   height: 52px;
+   padding: 0px 8px 0px 8px;
+   justify-content: center;
+   align-items: center;
+}
+
+.delivery_end-icon{
+   height: 24px;
+   width: 24px;
+   padding-right: 5px;
+}
+
+.delivery_end-descr{
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+}
+.delivery_end-descr-green{
+   color: rgba(12, 180, 119, 1);
+   font-family: Segoe UI;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+}
+.delivery_wrapper-punkt_1024{
+   display: none;
+}
+.delivery_wrapper-punkt_1024-right_side{
+   display: none;
+}
+
+@media (min-width: 1023px) {
+   .delivery_wrapper{
+      margin-top: 36px;
+      margin-left: 24px;
+   }
+   .delevery_method-name{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+   }
+   .delivery_wrapper-container{
+      padding-right: 24px;
+      padding-left: 25px;
+   }
+   .delivery_wrapper-punkt_1024{
+      display: flex;
+      margin-top: 17px;
+      align-items: center;
+      justify-content: start;
+      gap: 78px;
+   }
+   .delivery_wrapper-punkt_1024-right_side{
+      display: flex;
+      flex-direction: column;
+   }
+   .delivery_punkt{
+      padding: 0;
+      padding-bottom: 20px;
+   }
+   .delivery_cost{
+      flex-direction: row;
+      gap: 33px;
+      padding-top: 15px;
+   }
+   .deliver_date-1024{
+      display: flex;
+      gap: 82px;
+   }
+   .delivery_cards_to_date_wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+   .date-2 {
+      padding-top: 3px;
+  }
+   .delivery_cards_to_date-icons_wrapper{
+      padding: 0;
+   }
+   .delivery_wrapper{
+      height: max-content;
+   }
+
+   .delivery_end_wrapper {
+      margin-top: 9px;
+      display: flex;
+      height: 52px;
+      padding: 0px 8px 0px 0px;
+      justify-content: start;
+      align-items: center;
+  }
+  .delivery_end-descr-green{
+   border-bottom: 1px dotted rgba(12, 180, 119, 1); ;
+  }
+}

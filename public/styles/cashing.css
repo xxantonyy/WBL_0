@@ -1,0 +1,40 @@
+.cashing_wrapper{
+   margin-top: 12px;
+   border-radius: 16px;
+   gap: 8px;
+   background: rgba(255, 255, 255, 1);
+}
+
+.cashing {
+   padding: 16px;
+}
+
+.cashing_payment-wrapper{
+   display: flex;
+   margin-top: 8px;
+   align-items: center;
+   gap: 8px;
+}
+
+.cashing_payment-descr{
+   padding-top: 8px;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+   color: rgba(151, 151, 175, 1);
+}
+@media (min-width: 1023px) {
+   .cashing_wrapper {
+      margin-left: 24px;
+   }
+   .cashing{
+      padding-left: 24px;
+   }
+   .cashing_payment-wrapper{
+      margin-top: 13px;
+   }
+   .delevery_method-change{
+      padding-right: 7px;
+   }
+   
+}

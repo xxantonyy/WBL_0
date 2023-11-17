@@ -1,0 +1,35 @@
+@import url('header.css');
+@import url('main.css');
+@import url('delivery.css');
+@import url('cashing.css');
+@import url('cashingForm.css');
+@import url('lastSection.css');
+@import url('footer.css');
+
+* {
+   outline: 0;
+   padding: 0;
+   margin: 0;
+   border: 0 none;
+   
+}
+
+body {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+
+
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
