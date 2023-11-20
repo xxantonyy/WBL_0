@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildberries</title>
     <!-- <link rel="stylesheet" type="text/css" href="./styles/style.css"> -->
-<script defer src="main.22e344ef4176db19c7de.js"></script></head>
+<script defer src="main.74539c883266370b93f0.js"></script></head>
 
 <body> <!-- header -->
     <header>
@@ -62,199 +62,224 @@
                     <img class="select_all" src="./assets/checkbox.svg" alt="">
                     <p class="select_All">Выбрать все</p>
                 </div>
-                <img class="Vector_top" src="./assets/Vector_top.svg" alt="">
+                <div class="chekbox_wrapper-non_visible">
+                    <p><span class="non_visible_items">0</span> товаров</p>
+                    <p>-</p>
+                    <p><span class="non_visible_summ">0</span> сом</p>
+                </div>
+                <img class="Vector_top vector_1" src="./assets/Vector_top.svg" alt="">
             </div>
+            <hr class="hr1 hr1_non_visible">
 
             <!-- 1 итем -->
 
 
-            <div class="cart_item">
-                <hr class="hr1">
-                <div class="cart_item_wrapper">
-                    <div class="pic_descr">
-                        <div class="cart_item_pic">
-                            <img class="car_checkbox_img first_item" src="./assets/checkbox.svg" alt="">
-                            <div class="car_checkbox_img_2">56</div>
-                            <img class="cart_item_pic" src="./assets/firts_pic_t.png" alt="">
-                        </div>
-                        <div class="card_item_descr">
-                            <div class="card_item_descr_top">
-                                <div style="display: flex; gap: 6px;">
-                                    <div class="card_item_descr_top-first firstPriceMobile">0</div>
-                                    <p>сом</p>
+            <div class="cart_wrapper_fix">
+                <div class="cart_item">
+                    <hr class="hr1">
+                    <div class="cart_item_wrapper">
+                        <div class="pic_descr">
+                            <div class="cart_item_pic">
+                                <img class="car_checkbox_img first_item" src="./assets/checkbox.svg" alt="">
+                                <div class="car_checkbox_img_2">56</div>
+                                <img class="cart_item_pic" src="./assets/firts_pic_t.png" alt="">
+                            </div>
+                            <div class="card_item_descr">
+                                <div class="card_item_descr_top">
+                                    <div style="display: flex; gap: 6px;">
+                                        <div class="card_item_descr_top-first firstPriceMobile">0</div>
+                                        <p>сом</p>
+                                    </div>
+                                    <div style="display: flex; align-items: center; gap: 4px;">
+                                        <div class="card_item_descr_top-second firstPriceWithoutCashoutMobile">0</div>
+                                        <span style="color: rgba(151, 151, 175, 1);
+                                        text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2); margin-bottom: 4px;" class="card_span">сом</span>
+                                    </div> 
                                 </div>
-                                <div style="display: flex; align-items: center; gap: 4px;">
-                                    <div class="card_item_descr_top-second firstPriceWithoutCashoutMobile">0</div>
-                                    <span style="color: rgba(151, 151, 175, 1);
-                                    text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2); margin-bottom: 4px;" class="card_span">сом</span>
-                                </div> 
-                            </div>
-                            <div class="card_item_descr_second">Футболка UZcotton мужская</div>
-                            <div class="have-size">
-                                <div class="card_item_descr_third">Цвет: белый</div>
-                                <div class="card_item_descr_third">Размер: 56</div>
-                            </div>
-                            <div class="card_item_descr_four">Коледино WB</div>
-                            <div class="card_item_descr_four_1024">
-                                <p>ООО Вайлдбериз </p>
-                                <img src="./assets/icon-20.svg" alt="icon-20.svg">
+                                <div class="card_item_descr_second">Футболка UZcotton мужская</div>
+                                <div class="have-size">
+                                    <div class="card_item_descr_third">Цвет: белый</div>
+                                    <div class="card_item_descr_third">Размер: 56</div>
+                                </div>
+                                <div class="card_item_descr_four">Коледино WB</div>
+                                <div class="card_item_descr_four_1024">
+                                    <p>ООО Вайлдбериз </p>
+                                    <img src="./assets/icon-20.svg" alt="icon-20.svg">
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cart_item_activity_wrapper">
-                        <div class="cart_item_number">
-                            <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-minus firstMinus">-</button>
-                            <div class="cart_item_number-number firstScore">0</div>
-                            <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-plus firstPlus">+</button>
-                        </div>
-                        <div class="cart_item_activity">
-                            <div class="cart_item_lost">Осталось <span class="firstOstatok" style="padding: 0px 6px;" >10</span> шт.</div>
-                            <div class="cart_item_like-trash">
-                                <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
-                                <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+    
+                        <div class="cart_item_activity_wrapper">
+                            <div class="cart_item_number">
+                                <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-minus firstMinus">-</button>
+                                <div class="cart_item_number-number firstScore">0</div>
+                                <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-plus firstPlus">+</button>
+                            </div>
+                            <div class="cart_item_activity">
+                                <div class="cart_item_lost">Осталось <span class="firstOstatok" style="padding: 0px 6px;" >10</span> шт.</div>
+                                <div class="cart_item_like-trash">
+                                    <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
+                                    <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card_item_descr_top_1024">
-                        <div style="display: flex; gap: 6px; flex-direction: row;">
-                            <div class="card_item_descr_top-first firstPrice">0</div>
-                            <p class="card_span">сом</p>
-                        </div>
-                      
-                        <div style="display: flex; gap: 5px;">
-                            <div style="margin-top: 5px;"  class="card_item_descr_top-second firstPriceWithoutCashout">0</div>
-                            <span style="color: rgba(151, 151, 175, 1);
-                            text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
+                        <div class="card_item_descr_top_1024">
+                            <div style="display: flex; gap: 6px; flex-direction: row;">
+                                <div class="card_item_descr_top-first firstPrice">0</div>
+                                <p class="card_span">сом</p>
+                            </div>
+                          
+                            <div class="skidka_item_1" style="display: flex; gap: 5px; position: relative; cursor: pointer;">
+                                <div style="margin-top: 5px;"  class="card_item_descr_top-second firstPriceWithoutCashout">0</div>
+                                <span style="color: rgba(151, 151, 175, 1);
+                                text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
+                            </div>
+                            <div class="skidka_item_1_window window_1">
+                                <p>Скидка 10%</p>
+                                <div class="skidka_item_1_window_descr  window_1_descr">- <span class="descr_1">0</span> сом</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- 2 итем -->
-
-            <div class="cart_item">
-                <hr class="hr">
-                <div class="cart_item_wrapper">
-                    <div class="pic_descr">
-                        <div class="cart_item_pic">
-                            <img class="car_checkbox_img second_item" src="./assets/checkbox.svg" alt="">
-                            <div class="car_checkbox_img_2">56</div>
-                            <img class="cart_item_pic" src="./assets/phone.png" alt="">
-                        </div>
-                        <div class="card_item_descr">
-                            <div class="card_item_descr_top">
-                                <div style="display: flex; align-items: center; gap: 4px;"> 
-                                    <div class="card_item_descr_top-first secondPriceMobile">0</div>
-                                    <p>сом</p>
+    
+                <!-- 2 итем -->
+    
+                <div class="cart_item">
+                    <hr class="hr">
+                    <div class="cart_item_wrapper">
+                        <div class="pic_descr">
+                            <div class="cart_item_pic">
+                                <img class="car_checkbox_img second_item" src="./assets/checkbox.svg" alt="">
+                                <div class="car_checkbox_img_2">56</div>
+                                <img class="cart_item_pic" src="./assets/phone.png" alt="">
+                            </div>
+                            <div class="card_item_descr">
+                                <div class="card_item_descr_top">
+                                    <div style="display: flex; align-items: center; gap: 4px;"> 
+                                        <div class="card_item_descr_top-first secondPriceMobile">0</div>
+                                        <p>сом</p>
+                                    </div>
+                                    <div style="display: flex; align-items: center; gap: 4px;">
+                                        <div class="card_item_descr_top-second secondPriceWithoutCashoutMobile">0</div>
+                                        <span style="color: rgba(151, 151, 175, 1);
+                                        text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2); margin-bottom: 4px;" class="card_span">сом</span>
+                                    </div>
                                 </div>
-                                <div style="display: flex; align-items: center; gap: 4px;">
-                                    <div class="card_item_descr_top-second secondPriceWithoutCashoutMobile">0</div>
-                                    <span style="color: rgba(151, 151, 175, 1);
-                                    text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2); margin-bottom: 4px;" class="card_span">сом</span>
+                                <div class="card_item_descr_second">Силиконовый чехол картхолдер (отверстия) для карт,
+                                    прозрачный кейс бампер на Apple iPhone XR, MobiSafe</div>
+                                <div class="card_item_descr_third">Цвет: прозрачный</div>
+                                <div class="card_item_descr_four">Коледино WB</div>
+                                <div class="card_item_descr_four_1024">
+                                    <p>OOO Мегапрофстиль </p>
+                                    <img class="info_icon_check" src="./assets/icon-20.svg" alt="icon-20.svg">
+                                    <div class="card_item_descr_four_1024_descr">
+                                        <p class="card_item_descr_four_1024_descr_h1">OOO «МЕГАПРОФСТИЛЬ»</p>
+                                        <p>ОГРН: 5167746237148</p>
+                                        <p>129337, Москва, улица Красная Сосна, 2, корпус 1, стр. 1, помещение 2, офис 34</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card_item_descr_second">Силиконовый чехол картхолдер (отверстия) для карт,
-                                прозрачный кейс бампер на Apple iPhone XR, MobiSafe</div>
-                            <div class="card_item_descr_third">Цвет: прозрачный</div>
-                            <div class="card_item_descr_four">Коледино WB</div>
-                            <div class="card_item_descr_four_1024">
-                                <p>OOO Мегапрофстиль </p>
-                                <img src="./assets/icon-20.svg" alt="icon-20.svg">
+                        </div>
+    
+                        <div class="cart_item_activity_wrapper">
+                            <div class="cart_item_number">
+                                <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-minus secondMinus">-</button>
+                                <div class="cart_item_number-number secondScore">0</div>
+                                <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-plus secondPlus">+</button>
+                            </div>
+                            <div class="cart_item_activity">
+                                <div class="cart_item_lost">Осталось <span class="secondOstatok" style="padding: 0px 6px;" >100</span> шт.</div>
+                                <div class="cart_item_like-trash">
+                                    <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
+                                    <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cart_item_activity_wrapper">
-                        <div class="cart_item_number">
-                            <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-minus secondMinus">-</button>
-                            <div class="cart_item_number-number secondScore">0</div>
-                            <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-plus secondPlus">+</button>
-                        </div>
-                        <div class="cart_item_activity">
-                            <div class="cart_item_lost">Осталось <span class="secondOstatok" style="padding: 0px 6px;" >100</span> шт.</div>
-                            <div class="cart_item_like-trash">
-                                <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
-                                <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+    
+                        <div class="card_item_descr_top_1024">
+                            <div style="display: flex; gap: 6px;">
+                                <div class="card_item_descr_top-first secondPrice">0</div>
+                                <span class="card_span">сом</span>
                             </div>
+                            <div class="skidka_item_2" style="display: flex; gap: 6px; position: relative; cursor: pointer;">
+                                <div style="margin-top: 5px ;"  class="card_item_descr_top-second secondPriceWithoutCash">0</div>
+                                <span style="color: rgba(151, 151, 175, 1);
+                                text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
+                            </div>
+                            <div class="skidka_item_1_window window_2">
+                                <p>Скидка 10%</p>
+                                <div class="skidka_item_1_window_descr window_2_descr">- <span class="descr_2">0</span> сом</div>
+                            </div>
+                           
+                            
                         </div>
-                    </div>
-
-                    <div class="card_item_descr_top_1024">
-                        <div style="display: flex; gap: 6px;">
-                            <div class="card_item_descr_top-first secondPrice">0</div>
-                            <span class="card_span">сом</span>
-                        </div>
-                        <div style="display: flex; gap: 6px;">
-                            <div style="margin-top: 5px ;"  class="card_item_descr_top-second secondPriceWithoutCash">0</div>
-                            <span style="color: rgba(151, 151, 175, 1);
-                            text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
-                        </div>
-                       
-                        
                     </div>
                 </div>
-            </div>
-
-            <!-- 3 итем -->
-
-            <div class="cart_item">
-                <hr class="hr">
-                <div class="cart_item_wrapper">
-                    <div class="pic_descr">
-                        <div class="cart_item_pic">
-                            <img class="car_checkbox_img third_item" src="./assets/checkbox.svg" alt="">
-                            <div class="car_checkbox_img_2">56</div>
-                            <img class="cart_item_pic" src="./assets/book.png" alt="">
-                        </div>
-                        <div class="card_item_descr">
-                            <div class="card_item_descr_top">
-                                <div style="display: flex; gap: 6px;">
-                                    <div class="card_item_descr_top-first thirdPriceMobile">494</div>
-                                    <span> сом</span>
+    
+                <!-- 3 итем -->
+    
+                <div class="cart_item">
+                    <hr class="hr">
+                    <div class="cart_item_wrapper">
+                        <div class="pic_descr">
+                            <div class="cart_item_pic">
+                                <img class="car_checkbox_img third_item" src="./assets/checkbox.svg" alt="">
+                                <div class="car_checkbox_img_2">56</div>
+                                <img class="cart_item_pic" src="./assets/book.png" alt="">
+                            </div>
+                            <div class="card_item_descr">
+                                <div class="card_item_descr_top">
+                                    <div style="display: flex; gap: 6px;">
+                                        <div class="card_item_descr_top-first thirdPriceMobile">494</div>
+                                        <span> сом</span>
+                                    </div>
+                                    <div style="display: flex; gap: 4px; align-items: center; margin-bottom: 4px;">
+                                        <div style="margin-top: 5px ;" class="card_item_descr_top-second thirdPriceWithoutCashoutMobile">950</div>
+                                        <span style="color: rgba(151, 151, 175, 1);
+                                        text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
+                                    </div>
                                 </div>
-                                <div style="display: flex; gap: 4px; align-items: center; margin-bottom: 4px;">
-                                    <div style="margin-top: 5px ;" class="card_item_descr_top-second thirdPriceWithoutCashoutMobile">950</div>
-                                    <span style="color: rgba(151, 151, 175, 1);
-                                    text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
+                                <div class="card_item_descr_second">Карандаши цветные Faber-Castell "Замок", набор 24 цвета,
+                                    заточенные, шестигранные,Faber-Castell </div>
+                                <div class="card_item_descr_third card_item_descr_third_2014">Цвет: белый</div>
+                                <div class="card_item_descr_four">Коледино WB</div>
+                                <div class="card_item_descr_four_1024">
+                                    <p>ООО Вайлдбериз </p>
+                                    <img src="./assets/icon-20.svg" alt="icon-20.svg">
                                 </div>
                             </div>
-                            <div class="card_item_descr_second">Карандаши цветные Faber-Castell "Замок", набор 24 цвета,
-                                заточенные, шестигранные,Faber-Castell </div>
-                            <div class="card_item_descr_third card_item_descr_third_2014">Цвет: белый</div>
-                            <div class="card_item_descr_four">Коледино WB</div>
-                            <div class="card_item_descr_four_1024">
-                                <p>ООО Вайлдбериз </p>
-                                <img src="./assets/icon-20.svg" alt="icon-20.svg">
+                        </div>
+    
+                        <div class="cart_item_activity_wrapper">
+                            <div class="cart_item_number">
+                                <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-minus thirdMinus">-</button>
+                                <div class="cart_item_number-number thirdScore">0</div>
+                                <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-plus thirdPlus">+</button>
+                            </div>
+                            <div class="cart_item_activity">
+                                <div class="cart_item_lost">Осталось <span class="thirdOstatok" style="padding: 0px 6px;" >2</span> шт.</div>
+                                <div class="cart_item_like-trash">
+                                    <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
+                                    <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cart_item_activity_wrapper">
-                        <div class="cart_item_number">
-                            <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-minus thirdMinus">-</button>
-                            <div class="cart_item_number-number thirdScore">0</div>
-                            <button style="cursor: pointer; background: #FFFFFF;" class="cart_item_number-plus thirdPlus">+</button>
-                        </div>
-                        <div class="cart_item_activity">
-                            <div class="cart_item_lost">Осталось <span class="thirdOstatok" style="padding: 0px 6px;" >2</span> шт.</div>
-                            <div class="cart_item_like-trash">
-                                <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
-                                <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+    
+                        <div class="card_item_descr_top_1024">
+                            <div style="display: flex; gap: 6px;">
+                                <div class="card_ item_descr_top-first thirdPrice">0</div>
+                                <span class="card_span">сом</span>
                             </div>
+                           <div class="skidka_item_3" style="display: flex; gap: 6px; position: relative; cursor: pointer;">
+                                <div style="margin-top: 5px ;"   class="card_item_descr_top-second thirdPriceWithoutCash">0</div>
+                                <span style="color: rgba(151, 151, 175, 1);
+                                text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
+                           </div>
+                           <div class="skidka_item_1_window window_3">
+                            <p>Скидка 10%</p>
+                            <div class="skidka_item_1_window_descr window_2_descr">- <span class="descr_3">0</span> сом</div>
                         </div>
-                    </div>
-
-                    <div class="card_item_descr_top_1024">
-                        <div style="display: flex; gap: 6px;">
-                            <div class="card_ item_descr_top-first thirdPrice">0</div>
-                            <span class="card_span">сом</span>
                         </div>
-                       <div style="display: flex; gap: 6px;">
-                            <div style="margin-top: 5px ;"   class="card_item_descr_top-second thirdPriceWithoutCash">0</div>
-                            <span style="color: rgba(151, 151, 175, 1);
-                            text-decoration: line-through;  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);" class="card_span">сом</span>
-                       </div>
                     </div>
                 </div>
             </div>
@@ -265,112 +290,113 @@
                 <div class="no_have_items-wrapper">
                     <div class="chekbox_wrapper chekbox_wrapper_1024">
                         <div class="no_have_items_score">Отсутствуют · <span class="not_have_items">0</span> товара</div>
-                        <img class="Vector_top" src="./assets/Vector_top.svg" alt="">
+                        <img class="Vector_top vector_2" src="./assets/Vector_top.svg" alt="">
                     </div>
-                    <hr class="no_have_items-hr">
 
                     <!-- Карточка 1-го отсутствующего товара -->
 
-                    <div style="display: none;" class="cart_item  cart_item__nohave cart_item__nohave_1">
-                        <div class="cart_item_wrapper wrapper_no_have">
-                            <div class="pic_descr">
-                                <div class="cart_item_pic">
-                                    <div class="car_checkbox_img_2">56</div>
-                                    <img class="cart_item_pic" src="./assets/negativ_1.png" alt="">
-                                </div>
-                                <div class="card_item_descr">
-                                    <div class="card_item_no_have_descr_second">Футболка UZcotton мужская</div>
-                                    <div class="no-have-size">
-                                        <div class="card_item__no_have_descr_third">Цвет: белый</div>
-                                        <div class="card_item__no_have_descr_third">Размер: 56</div>
+                    <div class="wrapper_no_have_items">
+                        <div style="display: none;" class="cart_item  cart_item__nohave cart_item__nohave_1">
+                            <div class="cart_item_wrapper wrapper_no_have">
+                                <div class="pic_descr">
+                                    <div class="cart_item_pic">
+                                        <div class="car_checkbox_img_2">56</div>
+                                        <img class="cart_item_pic" src="./assets/negativ_1.png" alt="">
+                                    </div>
+                                    <div class="card_item_descr">
+                                        <div class="card_item_no_have_descr_second">Футболка UZcotton мужская</div>
+                                        <div class="no-have-size">
+                                            <div class="card_item__no_have_descr_third">Цвет: белый</div>
+                                            <div class="card_item__no_have_descr_third">Размер: 56</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="cart_item_activity_wrapper">
-                                <div style="opacity: 0" class="cart_item_number cart_item_number-no-have">
-                                    <div class="cart_item_number-minus no_have_score">-</div>
-                                    <div class="cart_item_number-number">1</div>
-                                    <div class="cart_item_number-plus">+</div>
-                                </div>
-                                <div  class="cart_item_activity">
-                                    <div style="opacity: 0" class="cart_item_lost cart_item_lost-na_have">Осталось 2 шт.</div>
-                                    <div class="cart_item_like-trash trash-like_no_hava">
-                                        <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
-                                        <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+    
+                                <div class="cart_item_activity_wrapper">
+                                    <div style="opacity: 0" class="cart_item_number cart_item_number-no-have">
+                                        <div class="cart_item_number-minus no_have_score">-</div>
+                                        <div class="cart_item_number-number">1</div>
+                                        <div class="cart_item_number-plus">+</div>
+                                    </div>
+                                    <div  class="cart_item_activity">
+                                        <div style="opacity: 0" class="cart_item_lost cart_item_lost-na_have">Осталось 2 шт.</div>
+                                        <div class="cart_item_like-trash trash-like_no_hava">
+                                            <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
+                                            <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
                         </div>
-                    </div>
-
-                    <!-- Карточка 2-го отсутствующего товара -->
-
-                    <hr class="no_have_items-hr-2">
-                    <div style="display: none;" class="cart_item cart_item__nohave cart_item__nohave_2">
-                        <div class="cart_item_wrapper wrapper_no_have wrapper_no_have-2">
-                            <div class="pic_descr">
-                                <div class="cart_item_pic">
-                                    <img class="cart_item_pic" src="./assets/negativ_2.png" alt="">
-                                </div>
-                                <div class="card_item_descr">
-                                    <div class="card_item_no_have_descr_second">Силиконовый чехол картхолдер (отверстия)
-                                        для карт,
-                                        прозрачный кейс бампер на Apple iPhone XR, MobiSafe</div>
-                                    <div class="card_item__no_have_descr_third">Цвет: прозрачный</div>
-                                </div>
-                            </div>
-
-                            <div class="cart_item_activity_wrapper">
-                                <div style="opacity: 0" class="cart_item_number no_have_score">
-                                    <div class="cart_item_number-minus no_have_score">-</div>
-                                    <div class="cart_item_number-number">1</div>
-                                    <div class="cart_item_number-plus">+</div>
-                                </div>
-                                <div class="cart_item_activity">
-                                    <div style="opacity: 0" class="cart_item_lost cart_item_lost-na_have">Осталось 2 шт.</div>
-                                    <div class="cart_item_like-trash trash-like_no_hava">
-                                        <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
-                                        <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+    
+                        <!-- Карточка 2-го отсутствующего товара -->
+    
+                        <hr class="no_have_items-hr-2">
+                        <div style="display: none;" class="cart_item cart_item__nohave cart_item__nohave_2">
+                            <div class="cart_item_wrapper wrapper_no_have wrapper_no_have-2">
+                                <div class="pic_descr">
+                                    <div class="cart_item_pic">
+                                        <img class="cart_item_pic" src="./assets/negativ_2.png" alt="">
+                                    </div>
+                                    <div class="card_item_descr">
+                                        <div class="card_item_no_have_descr_second">Силиконовый чехол картхолдер (отверстия)
+                                            для карт,
+                                            прозрачный кейс бампер на Apple iPhone XR, MobiSafe</div>
+                                        <div class="card_item__no_have_descr_third">Цвет: прозрачный</div>
                                     </div>
                                 </div>
+    
+                                <div class="cart_item_activity_wrapper">
+                                    <div style="opacity: 0" class="cart_item_number no_have_score">
+                                        <div class="cart_item_number-minus no_have_score">-</div>
+                                        <div class="cart_item_number-number">1</div>
+                                        <div class="cart_item_number-plus">+</div>
+                                    </div>
+                                    <div class="cart_item_activity">
+                                        <div style="opacity: 0" class="cart_item_lost cart_item_lost-na_have">Осталось 2 шт.</div>
+                                        <div class="cart_item_like-trash trash-like_no_hava">
+                                            <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
+                                            <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+    
                             </div>
-
                         </div>
-                    </div>
-
-                    <!-- Карточка 3-го отсутствующего товара -->
-
-                    <hr class="no_have_items-hr-2">
-                    <div style="display: none;" class="cart_item cart_item__nohave cart_item__nohave_3">
-                        <div class="cart_item_wrapper wrapper_no_have wrapper_no_have-3">
-                            <div class="pic_descr">
-                                <div class="cart_item_pic">
-                                    <div class="car_checkbox_no_have_img_2">56/54/52/50/48/46</div>
-                                    <img class="cart_item_pic" src="./assets/negativ_3.png" alt="">
-                                </div>
-                                <div class="card_item_descr">
-                                    <div class="card_item_no_have_descr_second">Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell </div>
-                                    <div style="opacity:0" class="card_item__no_have_descr_third">Цвет: белый</div>
-                                </div>
-                            </div>
-
-                            <div class="cart_item_activity_wrapper">
-                                <div style="opacity: 0" class="cart_item_number no_have_score">
-                                    <div class="cart_item_number-minus no_have_score">-</div>
-                                    <div class="cart_item_number-number">1</div>
-                                    <div class="cart_item_number-plus">+</div>
-                                </div>
-                                <div class="cart_item_activity">
-                                    <div style="opacity: 0" class="cart_item_lost cart_item_lost-na_have">Осталось 2 шт.</div>
-                                    <div class="cart_item_like-trash trash-like_no_hava">
-                                        <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
-                                        <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+    
+                        <!-- Карточка 3-го отсутствующего товара -->
+    
+                        <hr class="no_have_items-hr-2">
+                        <div style="display: none;" class="cart_item cart_item__nohave cart_item__nohave_3">
+                            <div class="cart_item_wrapper wrapper_no_have wrapper_no_have-3">
+                                <div class="pic_descr">
+                                    <div class="cart_item_pic">
+                                        <div class="car_checkbox_no_have_img_2">56/54/52/50/48/46</div>
+                                        <img class="cart_item_pic" src="./assets/negativ_3.png" alt="">
+                                    </div>
+                                    <div class="card_item_descr">
+                                        <div class="card_item_no_have_descr_second">Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell </div>
+                                        <div style="opacity:0" class="card_item__no_have_descr_third">Цвет: белый</div>
                                     </div>
                                 </div>
+    
+                                <div class="cart_item_activity_wrapper">
+                                    <div style="opacity: 0" class="cart_item_number no_have_score">
+                                        <div class="cart_item_number-minus no_have_score">-</div>
+                                        <div class="cart_item_number-number">1</div>
+                                        <div class="cart_item_number-plus">+</div>
+                                    </div>
+                                    <div class="cart_item_activity">
+                                        <div style="opacity: 0" class="cart_item_lost cart_item_lost-na_have">Осталось 2 шт.</div>
+                                        <div class="cart_item_like-trash trash-like_no_hava">
+                                            <img class="cart_item-hearth_icon" src="./assets/hearth.svg" alt="">
+                                            <img class="cart_item-trash_icon" src="./assets/trash.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+    
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -459,7 +485,7 @@
                 <div class="cashing">
                     <div class="delevery_method">
                         <p class="delevery_method-name">Способ оплаты</p>
-                        <p class="delevery_method-change">Изменить</p>
+                        <p class="delevery_method-change delevery_method-change2">Изменить</p>
                     </div>
                     <div class="cashing_payment-wrapper">
                         <img src="./assets/Платежные системы.svg" alt="">
@@ -522,7 +548,7 @@
     
                         <div class="last_section-itogo-second">
                             <div style="display: flex; gap: 6px;" class="last_section-itogo-second_left all_tovars">
-                                <div>0</div>
+                                <div class="all_items-cart">0</div>
                                 <p>товара</p>
                             </div>
                             <div style="display: flex; gap: 6px;">
@@ -547,7 +573,7 @@
                     <div class="last_adress">
                         <div class="last_punkt_vidachi">
                              <p>Доставка в пункт выдачи</p>
-                             <img src="./assets/pencel.svg" alt="">
+                             <img class="change_delivery" src="./assets/pencel.svg" alt="">
                         </div>
                         <div class="last_adress-adress">Бишкек, улица Ахматбека Суюмбаева, 12/1</div>
                         <div class="last-date">5–8 фев</div>
@@ -557,14 +583,14 @@
                             <img class="delivery_end-icon" src="./assets/price shipping.svg" alt="">
                             <div class="delivery_end-descr">
                                 Обратная доставка товаров на склад при отказе — <span
-                                    class="delivery_end-descr-green">бесплатно</span>
+                                    class="delivery_end-descr-green delivery_end-descr-green2">бесплатно</span>
                             </div>
                         </div>
                     </div>
                     <div class="last_payment-section">
                         <div class="last_punkt_vidachi">
                             <p>Оплата картой</p>
-                            <img src="./assets/pencel.svg" alt="">
+                            <img class="modal_2_openicon" src="./assets/pencel.svg" alt="">
                         </div>
                         <div class="cashing_payment-wrapper">
                             <img src="./assets/Платежные системы.svg" alt="">
@@ -603,6 +629,101 @@
             <img class="footer-img" src="./assets/human.svg" alt="human.svg">
         </div>
     </main>
+
+    <div style="display: none;" class="modal modal_1">
+        <div class="modal_content-1">
+            <div class="modal_delivery-method">
+                <div>
+                    Способ доставки
+                </div>
+                <img style="cursor: pointer;" class="modal_1-close-btn" src="./assets/search-close.svg" alt="">
+            </div>
+            <div class="modal_buttons">
+                <div class="modal_buttons-1 modal_buttons_c active_modal_btn_1">В пункт выдачи</div>
+                <div class="modal_buttons-2 modal_buttons_c">Курьером</div>
+            </div>
+            <div class="modal_adress">Мои адреса</div>
+            <div class="modal_adress-items">
+                <div class="modal_adress-item"> 
+                    <div class="modal_adress-item_wrapper">
+                        <img class="modal_check-1 modal_check" src="./assets/pointer_fill.svg" alt="">
+                        <div class="modal_text">
+                            <p>Бишкек, улица Табышалиева, 57</p>   
+                        </div>
+                    </div>
+                    <img class="modal_trash-1" src="./assets/trash.svg" alt="">
+                </div>
+                <div class="modal_star">
+                    <img src="./assets/star.svg" alt="">
+                    <p class="modal_star-rating">4.49</p>
+                    <p class="modal_star-descr">Пункт выдачи</p>
+                </div>
+            
+                <div class="modal_adress-item"> 
+                    <div class="modal_adress-item_wrapper">
+                        <img class="modal_check-2  modal_check" src="./assets/pointer.svg" alt="">
+                        <div class="modal_text">Бишкек, улица Жукеева-Пудовкина, 77/1</div>
+                    </div>
+                    <img class="modal_trash-2" src="./assets/trash.svg" alt="">
+                </div>
+                
+                <div class="modal_star">
+                    <img src="./assets/star.svg" alt="">
+                    <p class="modal_star-rating">4.49</p>
+                    <p class="modal_star-descr">Пункт выдачи</p>
+                </div>
+
+                <div class="modal_adress-item"> 
+                    <div class="modal_adress-item_wrapper">
+                        <img class="modal_check-3  modal_check" src="./assets/pointer.svg" alt="">
+                        <div class="modal_text">Бишкек, микрорайон Джал, улица Ахунбаева Исы, 67/1</div>
+                    </div>
+                    <img class="modal_trash-4" src="./assets/trash.svg" alt="">
+                </div>
+                <div class="modal_star">
+                    <img src="./assets/star.svg" alt="">
+                    <p class="modal_star-rating">4.49</p>
+                    <p class="modal_star-descr">Пункт выдачи</p>
+                </div>
+            </div>
+            <div class="modal-choose">Выбрать</div>
+        </div>
+    </div>
+
+    <div style="display: none;" class="modal modal_2">
+        <div class="modal_content-2">
+            <div class="modal_top">
+                <p class="modal_top-descr">Способ оплаты</p>
+                <img class="molda_2-close-img" src="./assets/search-close.svg" alt="">
+            </div>
+            <div class="modal_item modal_item1">
+                <img class="modal_2_choosen-icon1 modal_2_choosen-icon" src="./assets/pointer_fill.svg" alt="">
+                <img src="./assets/mir.svg" alt="">
+                <p class="modal_low_descr">1234 56•• •••• 1234</p>
+            </div>
+
+            <div class="modal_item modal_item2">
+                <img class="modal_2_choosen-icon2 modal_2_choosen-icon" src="./assets/pointer.svg" alt="">
+                <img src="./assets/visa.svg" alt="">
+                <p class="modal_low_descr">1234 56•• •••• 1234</p>
+            </div>
+
+            <div class="modal_item modal_item3">
+                <img class="modal_2_choosen-icon3 modal_2_choosen-icon" src="./assets/pointer.svg" alt="">
+                <img src="./assets/master_1.svg" alt="">
+                <p class="modal_low_descr">1234 56•• •••• 1234</p>
+            </div>
+
+            <div class="modal_item modal_item4"> 
+                <img class="modal_2_choosen-icon4 modal_2_choosen-icon" src="./assets/pointer.svg" alt="">
+                <img src="./assets/master_2.svg" alt="">
+                <p class="modal_low_descr">1234 56•• •••• 1234</p>
+            </div>
+            
+            <div class="zaglushka"></div>
+            <div class="modal_choose2">Выбрать</div>
+        </div>
+    </div>
 </body>
 
 </html> 
