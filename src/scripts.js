@@ -1,4 +1,4 @@
-import '../public/styles/style.css';
+import '../styles/style.css';
 //Ключи локал стореджа
 const getSumm = 'LOCAL_STORAGE_SUMM';
 const getSkidkaSumm = 'LOCAL_STORAGE_GETSKIDKA';
