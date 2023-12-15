@@ -8,7 +8,7 @@
    border-bottom-left-radius: 24px;
 }
 .last_section-submit_button {
-
+   cursor: pointer;
 }
 .last_section-policy {
 
@@ -61,6 +61,10 @@
    font-size: 13px;
    font-weight: 400;
    line-height: 16px;
+}
+
+.last_section-payMethod_check-checker{
+   cursor: pointer;
 }
 
 .last_section-payMethod_low_desc{
@@ -125,6 +129,9 @@
 
 .last_punkt_vidachi{
    display: none;
+}
+.last_section-delivery {
+   position: relative;
 }
 
 @media (min-width: 1023px) {

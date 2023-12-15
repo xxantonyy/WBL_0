@@ -30,6 +30,11 @@
    letter-spacing: 0px;
    text-align: right;
    color: rgba(203, 17, 171, 1);
+   cursor: pointer;
+}
+
+.change_delivery{
+   cursor: pointer;
 }
 
 .delivery_punkt{
@@ -233,6 +238,7 @@
    }
 
    .delivery_end_wrapper {
+      position: relative;
       margin-top: 9px;
       display: flex;
       height: 52px;
@@ -241,6 +247,54 @@
       align-items: center;
   }
   .delivery_end-descr-green{
-   border-bottom: 1px dotted rgba(12, 180, 119, 1); ;
+   border-bottom: 1px dotted rgba(12, 180, 119, 1);
   }
+  .delivery_end-descr-green:hover::after {
+   content: 'Если товары вам не подойдут, мы вернем их обратно на склад — это бесплатно';
+   position: absolute;
+   top: 40px;
+   left: 230px;
+   width: 288px;
+   padding: 10px;
+   background-color: #fff;
+   border: 1px solid #ccc; 
+   border-radius: 8px;
+   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+   z-index: 1000;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+   color: rgba(0, 0, 0, 1);
+   padding: 10px 16px 14px 16px;
+ }
+  .delivery_end-descr-green:hover::after {
+   opacity: 1;
+ }
+
+ .delivery_end-descr-green2:hover::after {
+   content: 'Если товары вам не подойдут, мы вернем их обратно на склад — это бесплатно';
+   position: absolute;
+   top: 40px;
+   left: 0;
+   width: calc(100% - 32px);
+   padding: 10px;
+   background-color: #fff;
+   border: 1px solid #ccc; 
+   border-radius: 8px;
+   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+   z-index: 1000;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16px;
+   color: rgba(0, 0, 0, 1);
+   padding: 10px 16px 14px 16px;
+ }
+ .delivery_end-descr-green2:hover::after {
+   opacity: 1;
+ }
+
 }

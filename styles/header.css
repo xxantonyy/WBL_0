@@ -139,9 +139,30 @@
    }
 
    .right_1024-icon-cart{
+      position: relative;
       padding-bottom: 5px;
       margin-right: 2px;
    }
+   .right_1024-icon-cart-2{
+      position: absolute;
+      height: 16px;
+      width: fit-content;
+      padding: 0 5px;
+      background: rgba(245, 81, 35, 1);
+      border-radius: 16px;
+      display: flex;
+      top: 16px;
+      right: 24px;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+   }
+
 
    .search_1024-placeholder{
       position: absolute;
